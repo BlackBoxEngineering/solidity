@@ -11,6 +11,7 @@ Compiler Features:
 
 Bugfixes:
  * Control Flow Graph: Perform proper virtual lookup for modifiers for uninitialized variable and unreachable code analysis.
+ * TypeChecker: Fix ICE when a constant variable declaration forward references a struct.
 
 
 Solc-Js:
